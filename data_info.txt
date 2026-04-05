@@ -1,0 +1,133 @@
+Columns and Types:
+id                                         int64
+Gender                                    object
+Age                                      float64
+City                                      object
+Profession                                object
+Academic Pressure                        float64
+Work Pressure                            float64
+CGPA                                     float64
+Study Satisfaction                       float64
+Job Satisfaction                         float64
+Sleep Duration                            object
+Dietary Habits                            object
+Degree                                    object
+Have you ever had suicidal thoughts ?     object
+Work/Study Hours                         float64
+Financial Stress                         float64
+Family History of Mental Illness          object
+Depression                                 int64
+dtype: object
+
+Missing Values:
+id                                       0
+Gender                                   0
+Age                                      0
+City                                     0
+Profession                               0
+Academic Pressure                        0
+Work Pressure                            0
+CGPA                                     0
+Study Satisfaction                       0
+Job Satisfaction                         0
+Sleep Duration                           0
+Dietary Habits                           0
+Degree                                   0
+Have you ever had suicidal thoughts ?    0
+Work/Study Hours                         0
+Financial Stress                         3
+Family History of Mental Illness         0
+Depression                               0
+dtype: int64
+
+Sample Data (First 3 rows):
+   id  Gender   Age           City Profession  Academic Pressure  \
+0   2    Male  33.0  Visakhapatnam    Student                5.0   
+1   8  Female  24.0      Bangalore    Student                2.0   
+2  26    Male  31.0       Srinagar    Student                3.0   
+
+   Work Pressure  CGPA  Study Satisfaction  Job Satisfaction  \
+0            0.0  8.97                 2.0               0.0   
+1            0.0  5.90                 5.0               0.0   
+2            0.0  7.03                 5.0               0.0   
+
+      Sleep Duration Dietary Habits   Degree  \
+0          5-6 hours        Healthy  B.Pharm   
+1          5-6 hours       Moderate      BSc   
+2  Less than 5 hours        Healthy       BA   
+
+  Have you ever had suicidal thoughts ?  Work/Study Hours  Financial Stress  \
+0                                   Yes               3.0               1.0   
+1                                    No               3.0               2.0   
+2                                    No               9.0               1.0   
+
+  Family History of Mental Illness  Depression  
+0                               No           1  
+1                              Yes           0  
+2                              Yes           0  
+
+Description (Summary):
+                   id Gender           Age    City Profession  \
+count    27901.000000  27901  27901.000000   27901      27901   
+unique            NaN      2           NaN      52         14   
+top               NaN   Male           NaN  Kalyan    Student   
+freq              NaN  15547           NaN    1570      27870   
+mean     70442.149421    NaN     25.822300     NaN        NaN   
+std      40641.175216    NaN      4.905687     NaN        NaN   
+min          2.000000    NaN     18.000000     NaN        NaN   
+25%      35039.000000    NaN     21.000000     NaN        NaN   
+50%      70684.000000    NaN     25.000000     NaN        NaN   
+75%     105818.000000    NaN     30.000000     NaN        NaN   
+max     140699.000000    NaN     59.000000     NaN        NaN   
+
+        Academic Pressure  Work Pressure          CGPA  Study Satisfaction  \
+count        27901.000000   27901.000000  27901.000000        27901.000000   
+unique                NaN            NaN           NaN                 NaN   
+top                   NaN            NaN           NaN                 NaN   
+freq                  NaN            NaN           NaN                 NaN   
+mean             3.141214       0.000430      7.656104            2.943837   
+std              1.381465       0.043992      1.470707            1.361148   
+min              0.000000       0.000000      0.000000            0.000000   
+25%              2.000000       0.000000      6.290000            2.000000   
+50%              3.000000       0.000000      7.770000            3.000000   
+75%              4.000000       0.000000      8.920000            4.000000   
+max              5.000000       5.000000     10.000000            5.000000   
+
+        Job Satisfaction     Sleep Duration Dietary Habits    Degree  \
+count       27901.000000              27901          27901     27901   
+unique               NaN                  5              4        28   
+top                  NaN  Less than 5 hours      Unhealthy  Class 12   
+freq                 NaN               8310          10317      6080   
+mean            0.000681                NaN            NaN       NaN   
+std             0.044394                NaN            NaN       NaN   
+min             0.000000                NaN            NaN       NaN   
+25%             0.000000                NaN            NaN       NaN   
+50%             0.000000                NaN            NaN       NaN   
+75%             0.000000                NaN            NaN       NaN   
+max             4.000000                NaN            NaN       NaN   
+
+       Have you ever had suicidal thoughts ?  Work/Study Hours  \
+count                                  27901      27901.000000   
+unique                                     2               NaN   
+top                                      Yes               NaN   
+freq                                   17656               NaN   
+mean                                     NaN          7.156984   
+std                                      NaN          3.707642   
+min                                      NaN          0.000000   
+25%                                      NaN          4.000000   
+50%                                      NaN          8.000000   
+75%                                      NaN         10.000000   
+max                                      NaN         12.000000   
+
+        Financial Stress Family History of Mental Illness    Depression  
+count       27898.000000                            27901  27901.000000  
+unique               NaN                                2           NaN  
+top                  NaN                               No           NaN  
+freq                 NaN                            14398           NaN  
+mean            3.139867                              NaN      0.585499  
+std             1.437347                              NaN      0.492645  
+min             1.000000                              NaN      0.000000  
+25%             2.000000                              NaN      0.000000  
+50%             3.000000                              NaN      1.000000  
+75%             4.000000                              NaN      1.000000  
+max             5.000000                              NaN      1.000000  
