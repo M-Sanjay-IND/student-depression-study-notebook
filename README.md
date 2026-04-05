@@ -249,7 +249,7 @@ plt.show()
 
 ---
 
-## 🎯 Extended Conclusion & Recommendations
+## 🎯 Conclusion & Recommendations
 
 The dataset provides irrefutable evidence pivoting clinical and administrative focus away from strictly standard academic variables (like pushing for higher subjective 'Study Satisfaction' ratings or manipulating academic loads) and heavily towards physiological wellness parameters and financial safety structures.
 
